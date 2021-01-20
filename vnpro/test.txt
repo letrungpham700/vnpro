@@ -1,0 +1,39 @@
+class
+name
+start
+end
+hour
+ta: id, name, take attendance
+instructor: id, name, take
+student: id, name (3)
+
+{
+   "name":"abc",
+   "start":"09:00",
+   "end":"11:00",
+   "hour":2,
+   "ta":{
+      "id":"123",
+      "name":"qqq",
+      "take attendance":false
+   },
+   "instructor":{
+      "id":"456",
+      "name":"aaa",
+      "take attendance":true
+   },
+   "student":[
+      {
+         "id":"1",
+         "name":"aaaa"
+      },
+      {
+         "id":"2",
+         "name":"bbbb"
+      },
+      {
+         "id":"3",
+         "name":"cccc"
+      }
+   ]
+}
